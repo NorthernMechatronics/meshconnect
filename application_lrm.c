@@ -49,8 +49,8 @@ const char lrm_extended_pan_id[] = "\x61\xc2\x0b\xcf\x65\xcb\x82\x56";
 const char lrm_mesh_local_prefix[] = "\xfd\x58\x47\xf8\x0c\xd8\x54\xc4";
 const char lrm_network_key[] = "\xcd\x2a\x30\xa1\x17\x1f\x30\x85\x7b\xb9\x54\x09\x01\xcc\x17\x58";
 const char lrm_pksc[] = "\x57\xc0\xe7\x78\x49\xc8\xd8\x4e\x72\x6c\x9a\x84\x91\x8d\x68\x51";
-
 const uint16_t lrm_channel = 2;
+
 const uint32_t lrm_radio_spreading_factor = 8;
 const uint32_t lrm_radio_bandwidth = 500;
 const uint32_t lrm_radio_transmit_power_dbm = 22;

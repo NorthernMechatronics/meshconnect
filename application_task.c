@@ -42,6 +42,7 @@
 #include "led.h"
 
 #include "gpio_cli.h"
+#include "meshconnect_cli.h"
 
 #include "application_task.h"
 #include "application_task_cli.h"
@@ -208,6 +209,7 @@ static void application_task(void *parameter)
 {
 #if defined(CLI_ENABLE)
     gpio_cli_register();
+    meshconnect_cli_register();
     application_task_cli_register();
 #endif
     application_task_setup();

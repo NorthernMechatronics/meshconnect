@@ -130,6 +130,7 @@ target_sources(
     main.c
     application_task.c
     application_lrm.c
+    meshconnect_cli.c
 
     ${SDK_DIR}/middleware/RTT/RTT/SEGGER_RTT.c
     ${SDK_DIR}/middleware/RTT/RTT/SEGGER_RTT_printf.c
